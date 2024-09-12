@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+*{
+    font-family: 'Alfa Slab One', serif;
+ margin:0px;
+ padding: 0px;
+}
+body{
+    background-color:#090909;
+ 
+}
+.box{
+    height:350px;
+    width:280px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  border-radius: 20px;
+  font-size: 40px;
+  color:chocolate;
+  
+  box-shadow: 4px 4px 10px  orangered;
+}
+a{
+    text-decoration: none;
+}
+#boxes{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width:100vw;
+}
+.box:hover{
+ 
+    transform: scale(1.2);
+    background-position: 2px;
+  font-size: 0px;
+}
+#pro:hover{
+    display:flex;
+    justify-content: center;
+background-image: url('../images/project.gif');
+background-size: cover;
+}
+#con:hover{
+    background-image: url('../images/Call\ Center.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-image-width: 40px;
+}
+#abo:hover{
+    background-image: url('../images/aboutme.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#back{
+background-color:transparent;
+color:white;
+font-size: 30px;
+font-family:'Courier New', Courier, monospace;
+
+}

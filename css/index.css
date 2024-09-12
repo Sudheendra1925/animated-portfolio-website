@@ -1,0 +1,187 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Spice&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+height:100vh;
+width:100vw;
+margin:0px;
+padding:0px;
+background-color: #090909;
+}
+h1{
+    padding-left:70px;
+    font-size:100px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#snm{
+ 
+  
+   color:#Db6939;
+   font-family: 'Bungee Spice', sans-serif;
+   animation: shadow 5s infinite ;
+ text-shadow: 0 0 60px #Db6939;
+
+}
+#nm{
+    
+    display:inline;
+    color:#Db6939;
+      font-family: 'Bungee Spice', sans-serif;
+}
+
+#dot{
+    text-shadow:0 0 60px orangered;
+    display:inline;
+    color:#fff;
+font-size: 250px;
+
+}
+
+#main{
+    display:none;
+ 
+}
+
+
+
+#p1{
+    font-family: "Rubik Doodle shadow";
+    padding-left: 50px;
+ font-size: 25px;
+   display:inline;
+    margin:5px;
+   margin-left: 20px;;
+ color:silver;
+}
+@keyframes shadow{
+    0%{
+    
+      opacity: 1;
+       
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+#int{
+   height:100vh;
+   width:100vw;
+   display:flex;
+   font-family: 'Bungee Spice', sans-serif;
+   justify-content: center;
+   align-items: center;
+   }
+   
+.h{
+color:#fff;
+padding: 0px;
+margin:0px;
+position:absolute;
+background: linear-gradient(to right,orange,orangered);
+font-size: 100px;
+color:transparent;
+-webkit-background-clip: text;
+opacity:0;
+animation:loder 2s;
+}
+
+#h2{
+    animation-delay: 2s;
+}
+#h3{
+   
+    animation-delay: 4s;
+    
+}
+#know{
+  padding: 0px;
+    height:190px;
+    width:150px;
+    font-size: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    color:gold;
+    border: 2px solid silver;
+    position: absolute;
+    transform: translate(23vw,-27vh);
+
+}
+
+ 
+@keyframes loder {
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+    
+}
+
+
+
+@media screen and (max-width :700px){
+    h1{
+font-size:20px;
+
+    }
+    #know{
+        padding: 0px;
+          height:190px;
+          width:150px;
+          font-size: 10px;
+          background-color: transparent;
+          border-radius: 10px;
+          color:gold;
+          border: 2px solid silver;
+          position: absolute;
+          transform: translate(10vh,30vw);
+      
+      }
+p{
+    font-size:30px;
+}       
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
